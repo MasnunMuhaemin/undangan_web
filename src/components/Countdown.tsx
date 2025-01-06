@@ -23,7 +23,7 @@ const WeddingCountdown = () => {
           />
         </div>
         {/* Flower 3 */}
-        <div className="w-28 relative rotate-[10deg]">
+        <div className="w-24 mt-2 relative rotate-[10deg]">
           <img
             src="/images/flower/flower4.png"
             alt="Flower 3"
