@@ -5,18 +5,30 @@ const WeddingCountdown = () => {
   return (
     <div className="font1 relative bg-secondary text-center text-black py-8 w-full">
       {/* Gambar di atas background */}
-      <div className="absolute top-[-75px] left-1/2 transform -translate-x-1/2 flex">
+      <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 flex">
         {/* Flower 1 */}
-        <div className="w-28 relative left-12 rotate-[4deg]">
-          <img src="/images/flower/flowerflip4.png" alt="Flower 1" />
+        <div className="w-24 relative">
+          <img
+            src="/images/flower/flowerflip4.png"
+            alt="Flower 1"
+            className="absolute left-10"
+          />
         </div>
         {/* Flower 2 */}
-        <div className="w-64 mx-2 relative top-[-20px]">
-          <img src="/images/flower/flower1.png" alt="Flower 2" />
+        <div className="w-64 relative mx-2">
+          <img
+            src="/images/flower/flower1.png"
+            alt="Flower 2"
+            className="absolute -top-5"
+          />
         </div>
         {/* Flower 3 */}
-        <div className="w-28 relative right-12 rotate-[10deg]">
-          <img src="/images/flower/flower4.png" alt="Flower 3" />
+        <div className="w-28 relative rotate-[10deg]">
+          <img
+            src="/images/flower/flower4.png"
+            alt="Flower 3"
+            className="absolute right-9"
+          />
         </div>
       </div>
       {/* Title */}
