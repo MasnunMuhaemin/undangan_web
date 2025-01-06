@@ -1,20 +1,16 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './index.css'
-import { Home } from './pages'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home, Notfound, Links } from "./pages";
 
 function App() {
-
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route>
-            <Route path='/' Component={Home}/>
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" Component={Links} />
+        <Route path="/invite" Component={Home} />
+        <Route path="*" Component={Notfound} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

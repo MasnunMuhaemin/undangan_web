@@ -3,7 +3,7 @@ import Countdown from "react-countdown-simple";
 const WeddingCountdown = () => {
   let targetDate = new Date("2025-01-19T08:00:00+07:00").toISOString();
   return (
-    <div className="font1 relative bg-secondary text-center text-black py-8 min-w-full">
+    <div className="font1 relative bg-secondary text-center text-black py-8 w-full">
       {/* Gambar di atas background */}
       <div className="absolute top-[-75px] left-1/2 transform -translate-x-1/2 flex">
         {/* Flower 1 */}
