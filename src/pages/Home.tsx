@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { WeddingCountdown, Modal, Header } from "../components";
+import { WeddingCountdown, Modal, Header, SubHeader } from "../components";
 import invitations from "../lib/data.json";
 import Notfound from "./404";
 import { FaPause, FaPlay } from "react-icons/fa6";
@@ -38,6 +38,7 @@ const Home = () => {
   return (
     <div className="">
       <Header />
+      <SubHeader />
       <WeddingCountdown />
       <div
         className="fixed top-5 right-8 bg-[#ffcdab] p-2 cursor-pointer rounded-lg"
