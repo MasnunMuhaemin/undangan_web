@@ -1,5 +1,11 @@
 import { useEffect, useState } from "react";
-import { WeddingCountdown, Modal, Header, SubHeader } from "../components";
+import {
+  WeddingCountdown,
+  Modal,
+  Header,
+  SubHeader,
+  Content,
+} from "../components";
 import invitations from "../lib/data.json";
 import Notfound from "./404";
 import { FaPause, FaPlay } from "react-icons/fa6";
@@ -36,12 +42,13 @@ const Home = () => {
 
   if (!invitations.some((people) => people.name === name)) return <Notfound />;
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Header />
       <SubHeader />
+      <Content />
       <WeddingCountdown />
       <div
-        className="fixed top-5 right-8 bg-[#ffcdab] p-2 cursor-pointer rounded-lg"
+        className="fixed top-5 right-5 bg-[#ffcdab] p-2 cursor-pointer rounded-lg"
         onClick={handleToogle}
       >
         {toogle ? (
