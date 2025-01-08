@@ -5,6 +5,7 @@ import {
   Header,
   SubHeader,
   Content,
+  Maps,
 } from "../components";
 import invitations from "../lib/data.json";
 import Notfound from "./404";
@@ -47,8 +48,9 @@ const Home = () => {
       <SubHeader />
       <Content />
       <WeddingCountdown />
+      <Maps />
       <div
-        className="fixed top-5 right-5 bg-[#ffcdab] p-2 cursor-pointer rounded-lg"
+        className="fixed top-5 right-5 bg-secondary p-2 cursor-pointer rounded-lg"
         onClick={handleToogle}
       >
         {toogle ? (
