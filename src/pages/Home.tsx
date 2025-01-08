@@ -6,6 +6,7 @@ import {
   SubHeader,
   Content,
   Maps,
+  Inputs
 } from "../components";
 import invitations from "../lib/data.json";
 import Notfound from "./404";
@@ -49,6 +50,7 @@ const Home = () => {
       <Content />
       <WeddingCountdown />
       <Maps />
+      <Inputs name={name}/>
       <div
         className="fixed top-5 right-5 bg-secondary p-2 cursor-pointer rounded-lg"
         onClick={handleToogle}
