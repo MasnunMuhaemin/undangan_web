@@ -83,9 +83,9 @@ export default function Modal({ audio }: { audio: HTMLAudioElement }) {
               </p>
             </div>
 
-            <p className="text-lg font-semibold mb-3">Dear,</p>
+            <p className="text-lg font-semibold mb-3" data-aos="fade" data-aos-delay="800">Dear,</p>
             {invitedPerson ? (
-              <p className="text-xl font-bold">{invitedPerson.name}</p>
+              <p className="text-xl font-bold" data-aos="fade" data-aos-delay="900">{invitedPerson.name}</p>
             ) : (
               <p className="text-xl font-bold text-red-500">
                 Undangan tidak ditemukan
@@ -96,7 +96,7 @@ export default function Modal({ audio }: { audio: HTMLAudioElement }) {
           <div className="font1 transition-all hover:scale-110 group">
             <button
               data-aos="fade"
-              data-aos-delay="1600"
+              data-aos-delay="1000"
               data-aos-offset="-100"
               onClick={() => setOpen(false)}
               className="bg-black bg-opacity-[.75] shadow-lg rounded-3xl py-3 px-5 font-semibold flex items-center justify-center gap-2 group"

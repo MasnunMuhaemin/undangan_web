@@ -23,56 +23,72 @@ const Inputs = ({ name }: { name: string }) => {
       "https://api.whatsapp.com/send?phone=" + phone + "&text=" + template;
     window.location.href = api;
   };
+
   return (
-    <form onSubmit={handleSubmit} className="px-8 mb-10 mt-5">
-      <p className="text-4xl lg:text-header md:text-header font-bold text-secondary">
-        Konfirmasi Kehadiran
-      </p>
-      <div className=" h-[1.5px] bg-s late-500 rounded-full mb-5" />
-      <div className="flex flex-col gap-2">
-        <div className="flex gap-2 items-center text-xl">
-          <p className="text-lg text-secondary">Nama: {name}</p>
-        </div>
-        <div className="flex flex-col gap-2 mt-2">
-          <p className="text-lg text-secondary">Pesan Ucapan:</p>
-          <TextareaAutosize
-            onChange={(event) => setMessage(event.target.value)}
-            minRows={3}
-            className="resize-none border-2 rounded-lg p-2 border-black bg-secondary text-black"
-            required
-          />
-        </div>
-        <div className="flex flex-col gap-3 my-4">
-          {presences.map((presence, index) => (
-            <div key={index} className="flex gap-2 items-center">
-              {selectedPresence === presence.detail ? (
-                <FaCheck size={18} className="text-green-500" />
-              ) : (
-                <FaCircle
-                  size={18}
-                  className="text-gray-400 cursor-pointer hover:text-gray-600 transition duration-300"
+    <div className="flex flex-col items-center justify-center mt-5">
+      <form onSubmit={handleSubmit} className="px-8 mb-10 mt-5">
+        <p className="font1 text-4xl lg:text-header md:text-header font-bold text-secondary">
+          Konfirmasi Kehadiran
+        </p>
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center text-xl mt-2">
+            <p className="text-lg text-secondary">Nama: {name}</p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <p className="text-lg text-secondary">Pesan Ucapan:</p>
+            <TextareaAutosize
+              onChange={(event) => setMessage(event.target.value)}
+              minRows={3}
+              className="resize-none border-2 rounded-lg p-2 border-black bg-secondary text-black"
+              required
+            />
+          </div>
+          <div className="flex flex-col gap-3 my-4">
+            {presences.map((presence, index) => (
+              <div key={index} className="flex gap-2 items-center">
+                {selectedPresence === presence.detail ? (
+                  <FaCheck size={18} className="text-green-500" />
+                ) : (
+                  <FaCircle
+                    size={18}
+                    className="text-gray-400 cursor-pointer hover:text-gray-600 transition duration-300"
+                    onClick={() => setSelectedPresence(presence.detail)}
+                  />
+                )}
+                <label
+                  htmlFor={presence.detail}
+                  className="cursor-pointer"
                   onClick={() => setSelectedPresence(presence.detail)}
-                />
-              )}
-              <label
-                htmlFor={presence.detail}
-                className="cursor-pointer"
-                onClick={() => setSelectedPresence(presence.detail)}
-              >
-                {presence.detail}
-              </label>
-            </div>
-          ))}
+                >
+                  {presence.detail}
+                </label>
+              </div>
+            ))}
+          </div>
+          <button
+            type="submit"
+            className="bg-black rounded-lg py-3 font-semibold tracking-wide text-white flex items-center justify-center disabled:bg-opacity-50"
+            disabled={!message.length || !selectedPresence.length}
+          >
+            Konfirmasi
+          </button>
         </div>
-        <button
-          type="submit"
-          className="bg-black rounded-lg py-3 font-semibold tracking-wide text-white flex items-center justify-center disabled:bg-opacity-50"
-          disabled={!message.length || !selectedPresence.length}
-        >
-          Konfirmasi
-        </button>
+      </form>
+
+      {/* Kotak Terjemahan Al-Qur'an */}
+      <div className="w-[90%] max-w-3xl mt-10 p-6 rounded-lg bg-secondary text-gray-800 shadow-lg">
+        <h2 className="font-bold text-center text-lg mb-4" data-aos="zoom-in">
+          Terjemahan Al-Qur'an
+        </h2>
+        <p className="text-sm text-center leading-relaxed" data-aos="zoom-in">
+          "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
+          istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa
+          tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan
+          sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat
+          tanda-tanda bagi kaum yang berpikir." (QS. Ar-Rum: 21)
+        </p>
       </div>
-    </form>
+    </div>
   );
 };
 

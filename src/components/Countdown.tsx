@@ -32,9 +32,9 @@ const WeddingCountdown = () => {
         </div>
       </div>
       {/* Title */}
-      <h1 className="text-2xl font-bold mt-2">HARI YANG KAMI NANTI</h1>
+      <h1 className="text-2xl font-bold mt-2" data-aos="fade-down" data-aos-delay="650">HARI YANG KAMI NANTI</h1>
       {/* Description */}
-      <p className="mt-4 text-[8px] mx-auto px-4">
+      <p className="mt-4 text-[8px] mx-auto px-4" data-aos="zoom-in" data-aos-delay="500">
         Dengan penuh syukur, kami percaya bahwa Allah telah mempertemukan kami
         di waktu terbaik. Kini, kami dengan penuh bahagia menanti hari istimewa,
         saat janji suci akan terucap dan langkah baru kami dimulai bersama.

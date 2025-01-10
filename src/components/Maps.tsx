@@ -4,15 +4,21 @@ const Maps = () => {
       {/* Container Utama */}
       <div className="w-[90%] max-w-3xl p-8 rounded-lg relative">
         {/* Dekorasi Bunga di Luar Konten */}
-        <div className="absolute -top-8 -left-9 md:-top-10 md:-left-12 lg:-top-12 lg:-left-14">
+        <div className="absolute top-[-5rem] left-[-2rem] md:top-[-6rem] md:left-[-4rem] lg:top-[-8rem] lg:left-[-5rem]">
           <img
             src="/images/flower/flower2.png" // Ganti dengan path gambar bunga
             alt="Bunga"
             className="w-32 md:w-40 transform scale-y-[-1]"
           />
         </div>
+
         {/* Box Konten Utama */}
-        <div className="relative border-8 border-double border-secondary rounded-lg p-6">
+        <div
+          className="relative border-8 border-double border-secondary rounded-lg p-6"
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-aos-offset="250"
+        >
           {/* Dekorasi Bunga di Dalam Border */}
           <div className="absolute -top-4 -left-3 -z-10">
             <img
@@ -39,7 +45,13 @@ const Maps = () => {
         <div className="mt-8 flex items-center">
           {/* Teks dan Panah di Kiri */}
           <div className="w-1/2 pr-4 flex flex-col justify-center">
-            <h2 className="font2 text-3xl font-serif">LOKASI</h2>
+            <h2
+              className="font2 text-3xl font-serif"
+              data-aos="fade-right"
+              data-aos-delay="450"
+            >
+              LOKASI
+            </h2>
             <p className="font1 mt-4 text-[10px]">
               Alamat lengkap: Dsn. Sampora rt 02 rw 06 Ds. Cibubuan,
               <br />

@@ -85,11 +85,16 @@ const SubHeader = () => {
         {/* Informasi Tanggal */}
         {/* Teks */}
         <div className="bg-tertiary text-center text-black px-2 py-1 ml-2 md:ml-6 lg:ml-10 md:px-5 md:py-3 text-xs md:text-base lg:text-lg rounded-full w-fit">
-          <p>Miinggu 19 Januari 2025</p>
+          <p>Minggu 19 Januari 2025</p>
         </div>
 
         {/* Gambar */}
-        <div className="absolute -bottom-2 right-0 flex items-center">
+        <div
+          className="absolute -bottom-2 right-0 flex items-center"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-duration="800"
+        >
           <img
             src="/images/flower/flower2.png"
             alt="Mirror Flower"
@@ -98,7 +103,13 @@ const SubHeader = () => {
         </div>
       </div>
       <div className="font1 bg-secondary mt-1 text-center h-24 flex justify-center items-center">
-        <p className="tagline text-2xl">We're Getting Married</p>
+        <p
+          className="tagline text-2xl"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
+          We're Getting Married
+        </p>
       </div>
     </div>
   );
