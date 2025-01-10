@@ -5,8 +5,8 @@ const SubHeader = () => {
 
   return (
     <div className="">
-      <div className="w-full h-20 bg-gradient-to-t from-primary via-primary/35 to-transparent"></div>
       <div className="relative">
+        <div className="absolute -top-20 left-0 w-full h-20 bg-gradient-to-t from-primary from-10% via-primary/30 via-60% to-transparent to-90%"></div>
         {/* Judul Utama */}
         <h3 className="font1 text-xs md:text-lg lg:text-lg ml-2 md:ml-6 lg:ml-10 mb-4 mt-2">
           The Wedding Of

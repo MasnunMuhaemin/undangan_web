@@ -3,7 +3,7 @@ const Header = () => {
     <header className="relative">
       <div className="relative">
         <img
-          src="/images/wedding/modal.jpeg"
+          src="/images/wedding/img16.jpeg"
           alt="Header Background"
           className="w-full h-[60vh] object-cover"
         />

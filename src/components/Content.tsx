@@ -30,7 +30,7 @@ const Content = () => {
               PUTRA KETIGA BAPAK BARNAS SUSANTO & IBU AAT RAHMAWATI
             </p>
           </div>
-          <div className="absolute top-0 -right-6 -translate-y-4 translate-x-4">
+          <div className="absolute -top-3 -right-7 -translate-y-4 translate-x-4">
             <img
               src="/images/flower/flower4.png"
               alt="Flower Decoration"
@@ -59,7 +59,7 @@ const Content = () => {
               PUTRI KEDUA BAPAK OMANG & IBU ENAH
             </p>
           </div>
-          <div className="absolute -top-10 -left-6 -translate-y-4 -translate-x-4">
+          <div className="absolute -top-10 -left-12 -translate-y-4 -translate-x-4">
             <img
               src="/images/flower/flower4.png"
               alt="Flower Decoration"

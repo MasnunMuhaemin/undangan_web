@@ -82,7 +82,7 @@ const Gallery = () => {
       </div>
 
       {/* Save the Date */}
-      <div className="absolute bottom-11 md:bottom-16 right-4 md:right-6">
+      <div className="absolute bottom-11 md:bottom-16 right-6 md:right-7">
         <h2 className="text-xl md:text-2xl font-bold text-primary">
           SAVE THE DATE
         </h2>

@@ -23,11 +23,9 @@ export default function Modal({ audio }: { audio: HTMLAudioElement }) {
     };
   }, [open, setOpen]);
 
-  // Ambil parameter 'name' dari URL
   const queryParams = new URLSearchParams(location.search);
   const nameFromUrl = queryParams.get("name");
 
-  // Cari nama yang sesuai dalam data undangan
   const invitedPerson = invitations.find(
     (item) => item.name.toLowerCase() === (nameFromUrl?.toLowerCase() || "")
   );
@@ -41,7 +39,7 @@ export default function Modal({ audio }: { audio: HTMLAudioElement }) {
       <div className="absolute inset-0 bg-center bg-no-repeat bg-black opacity-[.75] z-0"></div>
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`bg-[image:url('/images/wedding/modal.jpeg')] md:bg-[image:url('/images/wedding/modal.jpeg')] bg-cover z-10 bg-center bg-no-repeat shadow p-6 transition-all duration-500 w-full h-full ${
+        className={`bg-[image:url('/images/wedding/img16.jpeg')] md:bg-[image:url('/images/wedding/modal.jpeg')] bg-cover z-10 bg-center bg-no-repeat shadow p-6 transition-all duration-500 w-full h-full ${
           open ? "opacity-100" : "scale-125 opacity-0"
         }`}
       >
@@ -71,7 +69,7 @@ export default function Modal({ audio }: { audio: HTMLAudioElement }) {
           </div>
 
           <p
-            className="font1 text-[1.5rem] mb-3 sm:font-bold sm:text-2xl md:text-2xl"
+            className="font1 text-[xs] mb-3 sm:font-bold sm:text-2xl md:text-2xl"
             data-aos="fade"
             data-aos-delay="500"
           >
@@ -79,9 +77,9 @@ export default function Modal({ audio }: { audio: HTMLAudioElement }) {
           </p>
 
           <div className="font2 items-center mt-3 mb-8 font-extrabold">
-            <div className="font-satisfy text-4xl md:text-5xl lg:text-6xl mt-5 mb-4 gap-5">
+            <div className="font-satisfy text-3xl md:text-5xl lg:text-6xl mt-5 mb-4 gap-5">
               <p data-aos="fade" data-aos-delay="700">
-                TOMMI & WELLY
+                WISNU & MEILANI
               </p>
             </div>
 
