@@ -10,7 +10,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="font2 relative text-center bg-secondary p-6">
+    <div className="font2 relative text-center bg-secondary p-2 mt-28">
       {/* Gambar di atas background */}
       <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 flex">
         {/* Flower 1 */}
@@ -40,8 +40,8 @@ const Gallery = () => {
       </div>
 
       {/* Header */}
-      <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold">GALLERY</h2>
+      <div className="text-center mb-8 mt-7">
+        <h2 className="text-3xl font-bold text-primary">GALLERY</h2>
       </div>
 
       {/* Gallery */}
@@ -82,8 +82,8 @@ const Gallery = () => {
       </div>
 
       {/* Save the Date */}
-      <div className="absolute bottom-6 right-6">
-        <h2 className="text-xl md:text-2xl font-bold">
+      <div className="absolute bottom-11 md:bottom-16 right-4 md:right-6">
+        <h2 className="text-xl md:text-2xl font-bold text-primary">
           SAVE THE DATE
         </h2>
       </div>

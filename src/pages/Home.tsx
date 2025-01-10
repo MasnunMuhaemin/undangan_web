@@ -7,7 +7,8 @@ import {
   Content,
   Maps,
   Inputs,
-  Gallery
+  Gallery,
+  Banks,
 } from "../components";
 import invitations from "../lib/data.json";
 import Notfound from "./404";
@@ -51,8 +52,9 @@ const Home = () => {
       <Content />
       <WeddingCountdown />
       <Maps />
-      <Inputs name={name}/>
+      <Inputs name={name} />
       <Gallery />
+      <Banks  />
       <div
         className="fixed top-5 right-5 bg-secondary p-2 cursor-pointer rounded-lg"
         onClick={handleToogle}

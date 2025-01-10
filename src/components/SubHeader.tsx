@@ -11,8 +11,8 @@ const SubHeader = () => {
         <h3 className="font1 text-xs md:text-lg lg:text-lg ml-2 md:ml-6 lg:ml-10 mb-4 mt-2">
           The Wedding Of
         </h3>
-        <h1 className="font2 text-3xl md:text-4xl lg:text-5xl ml-2 md:ml-6 lg:ml-10 mb-4">
-          TOMMI & WELLY
+        <h1 className="font2 text-2xl md:text-4xl lg:text-5xl ml-2 md:ml-6 lg:ml-10 mb-4">
+          WISNU & MEILANI
         </h1>
         <h3 className="font1 text-xs md:text-lg lg:text-lg ml-2 md:ml-6 lg:ml-10 mb-4">
           We invite you to celebrate our wedding
@@ -85,11 +85,11 @@ const SubHeader = () => {
         {/* Informasi Tanggal */}
         {/* Teks */}
         <div className="bg-tertiary text-center text-black px-2 py-1 ml-2 md:ml-6 lg:ml-10 md:px-5 md:py-3 text-xs md:text-base lg:text-lg rounded-full w-fit">
-          <p>Jum'at 12 Maret 2024</p>
+          <p>Miinggu 19 Januari 2025</p>
         </div>
 
         {/* Gambar */}
-        <div className="absolute bottom-0 right-0 flex items-center">
+        <div className="absolute -bottom-2 right-0 flex items-center">
           <img
             src="/images/flower/flower2.png"
             alt="Mirror Flower"

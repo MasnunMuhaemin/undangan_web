@@ -11,7 +11,7 @@ const Links = () => {
             to={`/invite?name=${item.name}`}
             className="flex justify-center items-center shadow-lg rounded-lg backdrop-blur-sm bg-white/30 border py-2 px-3 text-sm sm:text-base"
           >
-            Invitate To {item.name}
+            Invite To {item.name}
           </Link>
         );
       })}

@@ -19,15 +19,15 @@ const Content = () => {
         <div className="flex items-center gap-6 relative">
           <div>
             <img
-              src="/images/wedding/card.png"
+              src="/images/wedding/card2.png"
               alt="Welly"
               className="w-40 h-52 md:w-60 md:h-72 rounded-lg object-cover"
             />
           </div>
           <div className="text-center">
-            <h3 className="font2 text-xl md:text-2xl font-bold">WELLY</h3>
-            <p className="font1 text-xs md:text-base">
-              PUTRI PERTAMA BAPA UDIN & IBU JAMI
+            <h3 className="font2 text-lg md:text-2xl font-bold">BATARA WISNU, S.Pd</h3>
+            <p className="font1 text-[8px] md:text-base w-[190px]">
+              PUTRA KETIGA BAPAK BARNAS SUSANTO & IBU AAT RAHMAWATI
             </p>
           </div>
           <div className="absolute top-0 -right-6 -translate-y-4 translate-x-4">
@@ -46,17 +46,17 @@ const Content = () => {
         <div className="flex flex-row-reverse items-center relative">
           <div>
             <img
-              src="/images/wedding/card.png"
+              src="/images/wedding/card1.png"
               alt="Tommi"
               className="w-40 h-52 md:w-60 md:h-72 object-cover"
             />
           </div>
           <div className="text-center">
-            <h3 className="font2 text-xl md:text-2xl font-bold relative">
-              TOMMI
+            <h3 className="font2 text-lg md:text-2xl font-bold relative">
+              MEILANI, A.Md. Kep 
             </h3>
-            <p className="font1 text-xs md:text-base">
-              PUTRA PERTAMA BAPA UDIN & IBU JAMI
+            <p className="font1 text-[8px] md:text-base">
+              PUTRI KEDUA BAPAK OMANG & IBU ENAH
             </p>
           </div>
           <div className="absolute -top-10 -left-6 -translate-y-4 -translate-x-4">
