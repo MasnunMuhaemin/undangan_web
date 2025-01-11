@@ -37,9 +37,9 @@ const Banks = () => {
 
   return (
     <div className="text-secondary p-8">
-      <h1 className="font1 text-3xl font-bold text-left mb-2">GIFTS</h1>
-      <div className="h-1 bg-secondary w-full mb-4"></div>
-      <p className="font1 text-center text-[8px] mb-8">
+      <h1 className="font1 text-3xl font-bold text-left mb-2" data-aos="fade-right">GIFTS</h1>
+      <div className="h-1 bg-secondary w-full mb-4" data-aos="fade-left"></div>
+      <p className="font1 text-center text-[8px] mb-8" data-aos="fade-right">
         "Kami sangat menghargai kehadiran dan doa restu Anda di hari istimewa
         kami. Kami menerima uang berupa transfer digital di bawah ini dengan
         senang hati."

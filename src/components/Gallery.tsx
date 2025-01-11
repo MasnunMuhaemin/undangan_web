@@ -19,6 +19,7 @@ const Gallery = () => {
             src="/images/flower/flowerflip4.png"
             alt="Flower 1"
             className="absolute left-10"
+            data-aos="fade-right"
           />
         </div>
         {/* Flower 2 */}
@@ -27,6 +28,7 @@ const Gallery = () => {
             src="/images/flower/flower1.png"
             alt="Flower 2"
             className="absolute -top-5"
+            data-aos="zoom-in"
           />
         </div>
         {/* Flower 3 */}
@@ -35,13 +37,14 @@ const Gallery = () => {
             src="/images/flower/flower4.png"
             alt="Flower 3"
             className="absolute right-9"
+            data-aos="fade-left"
           />
         </div>
       </div>
 
       {/* Header */}
       <div className="text-center mb-8 mt-7">
-        <h2 className="text-3xl font-bold text-primary">GALLERY</h2>
+        <h2 className="text-3xl font-bold text-primary" data-aos="zoom-in">GALLERY</h2>
       </div>
 
       {/* Gallery */}
@@ -83,7 +86,7 @@ const Gallery = () => {
 
       {/* Save the Date */}
       <div className="absolute bottom-11 md:bottom-16 right-6 md:right-7">
-        <h2 className="text-xl md:text-2xl font-bold text-primary">
+        <h2 className="text-xl md:text-2xl font-bold text-primary" data-aos="zoom-in">
           SAVE THE DATE
         </h2>
       </div>

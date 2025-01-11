@@ -56,13 +56,13 @@ const Home = () => {
       <Gallery />
       <Banks  />
       <div
-        className="fixed top-5 right-5 bg-secondary p-2 cursor-pointer rounded-lg"
+        className="fixed top-5 right-5 p-2 cursor-pointer rounded-lg"
         onClick={handleToogle}
       >
         {toogle ? (
-          <FaPause size={30} color="#B67352" />
+          <FaPause size={30} color="#BCC2BF" />
         ) : (
-          <FaPlay size={30} color="#B67352" />
+          <FaPlay size={30} color="#BCC2BF" />
         )}
       </div>
       <Modal audio={audio} />

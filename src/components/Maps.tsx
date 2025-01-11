@@ -52,7 +52,11 @@ const Maps = () => {
             >
               LOKASI
             </h2>
-            <p className="font1 mt-4 text-[10px]">
+            <p
+              className="font1 mt-4 text-[10px]"
+              data-aos="fade-right"
+              data-aos-delay="550"
+            >
               Alamat lengkap: Dsn. Sampora rt 02 rw 06 Ds. Cibubuan,
               <br />
               Kec. Conggeang Kab. Sumedang

@@ -20,10 +20,10 @@ const Content = () => {
       {/* Bagian Konten */}
       <div className="flex flex-col md:flex-row justify-center items-center">
         {/* Kartu Welly */}
-        <div className="flex items-center gap-6 relative">
+        <div className="flex items-center relative">
           <div>
             <img
-              src="/images/wedding/card2.png"
+              src="/images/wedding/card2.svg"
               alt="Welly"
               className="w-40 h-52 md:w-60 md:h-72 rounded-lg object-cover"
             />
@@ -50,7 +50,7 @@ const Content = () => {
             <img
               src="/images/flower/flower4.png"
               alt="Flower Decoration"
-              className="w-28 md:w-20 -rotate-[75deg]"
+              className="w-28 md:w-20 -rotate-[85deg]"
               data-aos="zoom-in"
               data-aos-delay="500"
             />
@@ -70,7 +70,7 @@ const Content = () => {
         <div className="flex flex-row-reverse items-center relative">
           <div>
             <img
-              src="/images/wedding/card1.png"
+              src="/images/wedding/card1.svg"
               alt="Tommi"
               className="w-40 h-52 md:w-60 md:h-72 object-cover"
             />

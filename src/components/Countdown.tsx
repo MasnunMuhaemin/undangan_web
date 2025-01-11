@@ -12,6 +12,7 @@ const WeddingCountdown = () => {
             src="/images/flower/flowerflip4.png"
             alt="Flower 1"
             className="absolute left-10"
+            data-aos="fade-right"
           />
         </div>
         {/* Flower 2 */}
@@ -20,6 +21,7 @@ const WeddingCountdown = () => {
             src="/images/flower/flower1.png"
             alt="Flower 2"
             className="absolute -top-5"
+            data-aos="zoom-in"
           />
         </div>
         {/* Flower 3 */}
@@ -28,6 +30,7 @@ const WeddingCountdown = () => {
             src="/images/flower/flower4.png"
             alt="Flower 3"
             className="absolute right-9"
+            data-aos="fade-left"
           />
         </div>
       </div>
@@ -45,7 +48,7 @@ const WeddingCountdown = () => {
         targetDate={targetDate}
         renderer={({ days, hours, minutes, seconds }) => {
           return (
-            <div className="flex justify-center items-center mt-6 text-3xl font-bold">
+            <div className="flex justify-center items-center mt-6 text-3xl font-bold" data-aos="fade-out">
               {/* Hari */}
               <div className="text-center mx-3">
                 <span className="block">{days}</span>

@@ -25,7 +25,7 @@ const Inputs = ({ name }: { name: string }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center mt-5">
+    <div className="flex flex-col items-center justify-center">
       <form onSubmit={handleSubmit} className="px-8 mb-10 mt-5">
         <p className="font1 text-4xl lg:text-header md:text-header font-bold text-secondary">
           Konfirmasi Kehadiran
@@ -76,11 +76,11 @@ const Inputs = ({ name }: { name: string }) => {
       </form>
 
       {/* Kotak Terjemahan Al-Qur'an */}
-      <div className="w-[90%] max-w-3xl mt-10 p-6 rounded-lg bg-secondary text-gray-800 shadow-lg">
-        <h2 className="font-bold text-center text-lg mb-4" data-aos="zoom-in">
+      <div className="w-[90%] max-w-3xl mt-10 p-6 rounded-lg bg-secondary text-gray-800 shadow-lg" data-aos="fade-up" data-aos-delay="250">
+        <h2 className="font-bold text-center text-lg mb-4" data-aos="zoom-in" data-aos-delay="650">
           Terjemahan Al-Qur'an
         </h2>
-        <p className="text-sm text-center leading-relaxed" data-aos="zoom-in">
+        <p className="text-sm text-center leading-relaxed" data-aos="zoom-in" data-aos-delay="850">
           "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
           istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa
           tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan
