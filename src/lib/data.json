@@ -1,386 +1,170 @@
 [
-  {
-    "name": "Riki Iman"
-  },
-  {
-    "name": "Ai Rani"
-  },
-  {
-    "name": "Abang Haidar"
-  },
-  {
-    "name": "Aris"
-  },
-  {
-    "name": "Enjang Triana"
-  },
-  {
-    "name": "Dudun"
-  },
-  {
-    "name": "Suci Dita"
-  },
-  {
-    "name": "Anisa"
-  },
-  {
-    "name": "Faruk"
-  },
-  {
-    "name": "Aas"
-  },
-  {
-    "name": "Dede Tintin"
-  },
-  {
-    "name": "Rena"
-  },
-  {
-    "name": "Ibu Epong"
-  },
-  {
-    "name": "Tomi Kimong"
-  },
-  {
-    "name": "Inggit"
-  },
-  {
-    "name": "Selvi"
-  },
-  {
-    "name": "Iis Rini"
-  },
-  {
-    "name": "Yogi"
-  },
-  {
-    "name": "Lala"
-  },
-  {
-    "name": "Anjar Pajrin"
-  },
-  {
-    "name": "Desi"
-  },
-  {
-    "name": "Gustin"
-  },
-  {
-    "name": "Melinda"
-  },
-  {
-    "name": "Syifa"
-  },
-  {
-    "name": "Ainun"
-  },
-  {
-    "name": "Lia"
-  },
-  {
-    "name": "Nadya"
-  },
-  {
-    "name": "Nuran"
-  },
-  {
-    "name": "Neng Iis"
-  },
-  {
-    "name": "Mang Atep"
-  },
-  {
-    "name": "Ai Dedeh"
-  },
-  {
-    "name": "Defit"
-  },
-  {
-    "name": "Intan"
-  },
-  {
-    "name": "Yayang"
-  },
-  {
-    "name": "Meysin"
-  },
-  {
-    "name": "Teh Ica"
-  },
-  {
-    "name": "Teh Derina"
-  },
-  {
-    "name": "Ira"
-  },
-  {
-    "name": "Nina"
-  },
-  {
-    "name": "Teh Aci"
-  },
-  {
-    "name": "Drg. Nun"
-  },
-  {
-    "name": "Yaya"
-  },
-  {
-    "name": "Ekarita"
-  },
-  {
-    "name": "Lilis"
-  },
-  {
-    "name": "Ovi"
-  },
-  {
-    "name": "A Betox"
-  },
-  {
-    "name": "A Deni"
-  },
-  {
-    "name": "Dendi"
-  },
-  {
-    "name": "Iwang"
-  },
-  {
-    "name": "A Acep"
-  },
-  {
-    "name": "Heru"
-  },
-  {
-    "name": "Hilman"
-  },
-  {
-    "name": "Dede Kurniawan"
-  },
-  {
-    "name": "Sindi"
-  },
-  {
-    "name": "Neneng Yani"
-  },
-  {
-    "name": "Rani"
-  },
-  {
-    "name": "Dede Iman"
-  },
-  {
-    "name": "Lisna"
-  },
-  {
-    "name": "Anisa"
-  },
-  {
-    "name": "Risti"
-  },
-  {
-    "name": "Agus"
-  },
-  {
-    "name": "Nurul"
-  },
-  {
-    "name": "Roro"
-  },
-  {
-    "name": "Rossa"
-  },
-  {
-    "name": "Rossi"
-  },
-  {
-    "name": "Siska"
-  },
-  {
-    "name": "Suci Maulina"
-  },
-  {
-    "name": "Hanhan"
-  },
-  {
-    "name": "Dikri"
-  },
-  {
-    "name": "Aida"
-  },
-  {
-    "name": "Agung"
-  },
-  {
-    "name": "Rama"
-  },
-  {
-    "name": "Soni"
-  },
-  {
-    "name": "Andika"
-  },
-  {
-    "name": "Saki"
-  },
-  {
-    "name": "Vina"
-  },
-  {
-    "name": "Fakhri"
-  },
-  {
-    "name": "Faras"
-  },
-  {
-    "name": "Astri"
-  },
-  {
-    "name": "Abdul Bukan Dilan"
-  },
-  {
-    "name": "Ririn"
-  },
-  {
-    "name": "Asri"
-  },
-  {
-    "name": "Try"
-  },
-  {
-    "name": "Hesti"
-  },
-  {
-    "name": "Elva"
-  },
-  {
-    "name": "Maulinda"
-  },
-  {
-    "name": "Hadid"
-  },
-  {
-    "name": "Ziul"
-  },
-  {
-    "name": "Salma"
-  },
-  {
-    "name": "Windy"
-  },
-  {
-    "name": "Vina"
-  },
-  {
-    "name": "Rike"
-  },
-  {
-    "name": "Salsabila"
-  },
-  {
-    "name": "Gia"
-  },
-  {
-    "name": "Puteri"
-  },
-  {
-    "name": "Inna"
-  },
-  {
-    "name": "Tikah"
-  },
-  {
-    "name": "Liza Aryani"
-  },
-  {
-    "name": "Liza"
-  },
-  {
-    "name": "Alma"
-  },
-  {
-    "name": "Rosyidin"
-  },
-  {
-    "name": "Dita (Caca)"
-  },
-  {
-    "name": "Anggit Wengku"
-  },
-  {
-    "name": "Indri"
-  },
-  {
-    "name": "Siti"
-  },
-  {
-    "name": "Wulan Juliani"
-  },
-  {
-    "name": "Sabrul/Pante"
-  },
-  {
-    "name": "Keluarga Besar Ema Racing"
-  },
-  {
-    "name": "Keluarga Besar Menabung Pahala"
-  },
-  {
-    "name": "Keluarga Besar Taun Depan Nikah"
-  },
-  {
-    "name": "Mama Davin"
-  },
-  {
-    "name": "Ressa"
-  },
-  {
-    "name": "Aulia"
-  },
-  {
-    "name": "Rifaldi"
-  },
-  {
-    "name": "Amalia"
-  },
-  {
-    "name": "Devi"
-  },
-  {
-    "name": "Giska"
-  },
-  {
-    "name": "Julia"
-  },
-  {
-    "name": "Ipah"
-  },
-  {
-    "name": "Irma"
-  },
-  {
-    "name": "Yuli"
-  },
-  {
-    "name": "Cika"
-  },
-  {
-    "name": "Ita"
-  },
-  {
-    "name": "Hosana"
-  },
-  {
-    "name": "Angel"
-  },
-  {
-    "name": "Riza"
-  },
-  {
-    "name": "Hadid"
-  },
-  {
-    "name": "Deka"
-  }
+  { "name": "Riki Iman" },
+  { "name": "Ai Rani" },
+  { "name": "Abang Haidar" },
+  { "name": "Aris" },
+  { "name": "Enjang Triana" },
+  { "name": "Dudun" },
+  { "name": "Suci Dita" },
+  { "name": "Anisa" },
+  { "name": "Faruk" },
+  { "name": "Aas" },
+  { "name": "Dede Tintin" },
+  { "name": "Rena" },
+  { "name": "Ibu Epong" },
+  { "name": "Tomi Kimong" },
+  { "name": "Inggit" },
+  { "name": "Selvi" },
+  { "name": "Iis Rini" },
+  { "name": "Yogi" },
+  { "name": "Lala" },
+  { "name": "Anjar Pajrin" },
+  { "name": "Desi" },
+  { "name": "Gustin" },
+  { "name": "Melinda" },
+  { "name": "Syifa" },
+  { "name": "Ainun" },
+  { "name": "Lia" },
+  { "name": "Nadya" },
+  { "name": "Nuran" },
+  { "name": "Neng Iis" },
+  { "name": "Mang Atep" },
+  { "name": "Ai Dedeh" },
+  { "name": "Defit" },
+  { "name": "Intan" },
+  { "name": "Yayang" },
+  { "name": "Meysin" },
+  { "name": "Teh Ica" },
+  { "name": "Teh Derina" },
+  { "name": "Ira" },
+  { "name": "Nina" },
+  { "name": "Teh Aci" },
+  { "name": "Drg. Nun" },
+  { "name": "Yaya" },
+  { "name": "Ekarita" },
+  { "name": "Lilis" },
+  { "name": "Ovi" },
+  { "name": "A Betox" },
+  { "name": "A Deni" },
+  { "name": "Dendi" },
+  { "name": "Iwang" },
+  { "name": "A Acep" },
+  { "name": "Heru" },
+  { "name": "Hilman" },
+  { "name": "Dede Kurniawan" },
+  { "name": "Sindi" },
+  { "name": "Neneng Yani" },
+  { "name": "Rani" },
+  { "name": "Dede Iman" },
+  { "name": "Lisna" },
+  { "name": "Risti" },
+  { "name": "Agus" },
+  { "name": "Nurul" },
+  { "name": "Roro" },
+  { "name": "Rossa" },
+  { "name": "Rossi" },
+  { "name": "Siska" },
+  { "name": "Suci Maulina" },
+  { "name": "Hanhan" },
+  { "name": "Dikri" },
+  { "name": "Aida" },
+  { "name": "Agung" },
+  { "name": "Rama" },
+  { "name": "Soni" },
+  { "name": "Andika" },
+  { "name": "Saki" },
+  { "name": "Vina" },
+  { "name": "Fakhri" },
+  { "name": "Faras" },
+  { "name": "Astri" },
+  { "name": "Abdul Bukan Dilan" },
+  { "name": "Ririn" },
+  { "name": "Asri" },
+  { "name": "Try" },
+  { "name": "Hesti" },
+  { "name": "Elva" },
+  { "name": "Maulinda" },
+  { "name": "Hadid" },
+  { "name": "Ziul" },
+  { "name": "Salma" },
+  { "name": "Windy" },
+  { "name": "Rike" },
+  { "name": "Salsabila" },
+  { "name": "Gia" },
+  { "name": "Puteri" },
+  { "name": "Inna" },
+  { "name": "Tikah" },
+  { "name": "Liza Aryani" },
+  { "name": "Liza" },
+  { "name": "Alma" },
+  { "name": "Rosyidin" },
+  { "name": "Dita (Caca)" },
+  { "name": "Anggit Wengku" },
+  { "name": "Indri" },
+  { "name": "Siti" },
+  { "name": "Wulan Juliani" },
+  { "name": "Sabrul/Pante" },
+  { "name": "Keluarga Besar Ema Racing" },
+  { "name": "Keluarga Besar Menabung Pahala" },
+  { "name": "Keluarga Besar Taun Depan Nikah" },
+  { "name": "Mama Davin" },
+  { "name": "Ressa" },
+  { "name": "Aulia" },
+  { "name": "Rifaldi" },
+  { "name": "Amalia" },
+  { "name": "Devi" },
+  { "name": "Giska" },
+  { "name": "Julia" },
+  { "name": "Ipah" },
+  { "name": "Irma" },
+  { "name": "Yuli" },
+  { "name": "Cika" },
+  { "name": "Ita" },
+  { "name": "Hosana" },
+  { "name": "Angel" },
+  { "name": "Riza" },
+  { "name": "Deka" },
+  { "name": "Tamu Undangan" },
+  { "name": "Rizky Muhamad Firdaus" },
+  { "name": "Riris Radiyanti" },
+  { "name": "Resa Yuiswanto" },
+  { "name": "Rahardian Pradita Utama" },
+  { "name": "Embun Bunyamin" },
+  { "name": "Annisa Ajeng Kartini" },
+  { "name": "Lia Kamelia" },
+  { "name": "Fitriani Marlinda" },
+  { "name": "Yuli Yulianti" },
+  { "name": "Fika Amalia" },
+  { "name": "Rio Subahtiar" },
+  { "name": "Angga Hidayatulloh" },
+  { "name": "Wulan Nurlaelasari" },
+  { "name": "Ari Indra Permana" },
+  { "name": "Endah Ermawati" },
+  { "name": "Elsa Agustiani" },
+  { "name": "Silviani Fazriatulrochman" },
+  { "name": "Ninik Tanisah" },
+  { "name": "Dewi Intan Nurhasanah Lukman" },
+  { "name": "Ai Idah Faridah" },
+  { "name": "Riyan Hermawan" },
+  { "name": "Edi Prakoso" },
+  { "name": "M Fadilah Adinata" },
+  { "name": "Daniar Vebyanti" },
+  { "name": "Lucky Muhamad Ramdani" },
+  { "name": "Cantika Rettania Suci Insani" },
+  { "name": "Salsabila Nur Fadhilah" },
+  { "name": "Hanif Maulana Slamet Firdaus" },
+  { "name": "Maharani Dwita Muliana" },
+  { "name": "Keluarga Besar Volly Ball Club RSUD Cideres" },
+  { "name": "Kelurga Besar Nevax Girls Club RSUD Cideres" },
+  { "name": "Ajeng" },
+  { "name": "Rizal" },
+  { "name": "Tresa" },
+  { "name": "Prattia" },
+  { "name": "Elyna" },
+  { "name": "Hevani" },
+  { "name": "Anisa" },
+  { "name": "Sarah" },
+  { "name": "Syifa" },
+  { "name": "Silpia" },
+  { "name": "Helfi" }
 ]
