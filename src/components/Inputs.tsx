@@ -48,7 +48,7 @@ const Inputs = ({ name }: { name: string }) => {
   return (
     <div className="flex flex-col items-center justify-center">
       <form onSubmit={handleSubmit} className="px-8 mb-10 mt-5 w-full max-w-md">
-        <p className="font-bold text-4xl text-secondary text-center">
+        <p className="font-bold text-4xl text-secondary text-left">
           Konfirmasi Kehadiran
         </p>
         <div className="flex flex-col gap-2 mt-4">
